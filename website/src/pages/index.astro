@@ -15,46 +15,50 @@ import pumpkinFooter from '../images/pumpkin-footer.png'
 import github from '../images/github.svg'
 import slack from '../images/slack.svg'
 import instagram from '../images/instagram.svg'
+import leaves from '../images/leaves.jpg'
+
+const polaroidQuality = "low"
+const leavesQuality = "low"
 ---
 
-<Layout title="Harvest">
-    <div class="top-bg"></div>
+<Layout title="Harvest" >
+    <Image class="top-bg" src={leaves} alt="Leaves" quality={leavesQuality}></Image>
     <div class="top-bg-gradient"></div>
     <main>
 		<div class="polaroidsContainer">
 			<div class="polaroids">
 				<div class="polaroid left">
-					<Image class="polaroidImage" src={horizon} alt="Horizon"/>
+					<Image class="polaroidImage" src={horizon} alt="Horizon" quality={polaroidQuality}/>
 					<div class="polaroidTextContainer">
 						<span class="polaroidText">3/25/23 - horizon, nyc</span>
 					</div>
 				</div>
 				<div class="polaroid right">
-					<Image class="polaroidImage" src={spark} alt="Spark"/>
+					<Image class="polaroidImage" src={spark} alt="Spark" quality={polaroidQuality}/>
 					<div class="polaroidTextContainer">
 						<span class="polaroidText">8/12/23 - spark, sf</span>
 					</div>
 				</div>
 				<div class="polaroid left">
-					<Image class="polaroidImage" src={alpine} alt="Alpine"/>
+					<Image class="polaroidImage" src={alpine} alt="Alpine" quality={polaroidQuality}/>
 					<div class="polaroidTextContainer">
 						<span class="polaroidText">7/15/23 - alpine, slc</span>
 					</div>
 				</div>
 				<div class="polaroid right">
-					<Image class="polaroidImage" src={epoch} alt="Epoch"/>
+					<Image class="polaroidImage" src={epoch} alt="Epoch" quality={polaroidQuality}/>
 					<div class="polaroidTextContainer">
 						<span class="polaroidText">1/1/23 -<br/>epoch, dehli ncr</span>
 					</div>
 				</div>
 				<div class="polaroid left">
-					<Image class="polaroidImage" src={assemble} alt="Assemble"/>
+					<Image class="polaroidImage" src={assemble} alt="Assemble" quality={polaroidQuality}/>
 					<div class="polaroidTextContainer">
 						<span class="polaroidText">7/5/22 - assemble, sf</span>
 					</div>
 				</div>
 				<div class="polaroid right">
-					<Image class="polaroidImage" src={angelhacks} alt="AngelHacks"/>
+					<Image class="polaroidImage" src={angelhacks} alt="AngelHacks" quality={polaroidQuality}/>
 					<div class="polaroidTextContainer">
 						<span class="polaroidText">5/28/23 -<br/>angelhacks, boston</span>
 					</div>
@@ -131,7 +135,7 @@ import instagram from '../images/instagram.svg'
                         <a href="https://hackclub.com/slack"><Image class="icon" src={slack} alt="Slack" width="45"/></a>
                         <a href="https://instagram.com/starthackclub"><Image class="icon" src={instagram} alt="Instagram" width="45"/></a>
                     </div>
-					<div class="bottom-bg"/>
+					<Image class="bottom-bg" src={leaves} alt="Leaves" quality={leavesQuality} />
 					<div class="bottom-bg-gradient"/>
 				</div>
             </div>
@@ -167,8 +171,7 @@ import instagram from '../images/instagram.svg'
 	}
 
 	.bottom-bg {
-		background: url("/leaves.jpg");
-		background-size: 100%;
+        object-fit: cover;
 		opacity: 0.15;
 		height: 60vh;
 		width: 100%;
@@ -519,8 +522,7 @@ import instagram from '../images/instagram.svg'
     }
 
     .top-bg {
-        background: url("/leaves.jpg");
-        background-size: 100%;
+        object-fit: cover;
         opacity: 0.15;
         height: 120vh;
         width: 100%;
