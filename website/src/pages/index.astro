@@ -1,0 +1,543 @@
+---
+import Layout from '../layouts/Layout.astro';
+import {Image} from 'astro:assets'
+
+import gsgwmLogo from '../images/gsgwm-logo.png'
+import hcFlag from '../images/hc-flag.png'
+import horizon from '../images/horizon.png'
+import spark from '../images/spark.png'
+import alpine from '../images/alpine.jpeg'
+import epoch from '../images/epoch.png'
+import assemble from '../images/assemble.png'
+import angelhacks from '../images/angelhacks.jpeg'
+import ghost from '../images/ghost.png'
+import pumpkinFooter from '../images/pumpkin-footer.png'
+import github from '../images/github.svg'
+import slack from '../images/slack.svg'
+import instagram from '../images/instagram.svg'
+---
+
+<Layout title="Harvest">
+    <div class="top-bg"></div>
+    <div class="top-bg-gradient"></div>
+    <main>
+		<div class="polaroidsContainer">
+			<div class="polaroids">
+				<div class="polaroid left">
+					<Image class="polaroidImage" src={horizon} alt="Horizon"/>
+					<div class="polaroidTextContainer">
+						<span class="polaroidText">3/25/23 - horizon, nyc</span>
+					</div>
+				</div>
+				<div class="polaroid right">
+					<Image class="polaroidImage" src={spark} alt="Spark"/>
+					<div class="polaroidTextContainer">
+						<span class="polaroidText">8/12/23 - spark, sf</span>
+					</div>
+				</div>
+				<div class="polaroid left">
+					<Image class="polaroidImage" src={alpine} alt="Alpine"/>
+					<div class="polaroidTextContainer">
+						<span class="polaroidText">7/15/23 - alpine, slc</span>
+					</div>
+				</div>
+				<div class="polaroid right">
+					<Image class="polaroidImage" src={epoch} alt="Epoch"/>
+					<div class="polaroidTextContainer">
+						<span class="polaroidText">1/1/23 -<br/>epoch, dehli ncr</span>
+					</div>
+				</div>
+				<div class="polaroid left">
+					<Image class="polaroidImage" src={assemble} alt="Assemble"/>
+					<div class="polaroidTextContainer">
+						<span class="polaroidText">7/5/22 - assemble, sf</span>
+					</div>
+				</div>
+				<div class="polaroid right">
+					<Image class="polaroidImage" src={angelhacks} alt="AngelHacks"/>
+					<div class="polaroidTextContainer">
+						<span class="polaroidText">5/28/23 -<br/>angelhacks, boston</span>
+					</div>
+				</div>
+			</div>
+		</div>
+        <div class="titleContainer">
+            <div class="HCandGSLine">
+				<a href="https://hackclub.com"><Image src={hcFlag} alt="Hack Club" class="HCandGSLogos"/></a>
+                <p class="plusText">+</p>
+				<a href="https://www.girlscoutsgwm.org/"><Image src={gsgwmLogo} alt="Girl Scouts of the Green and White Mountains" class="HCandGSLogos"/></a>
+            </div>
+            <h2 class="presentText">present...</h2>
+            <h1 class="title">Harvest</h1>
+            <h2 class="subtitle">October 28 • Burlington, VT</h2>
+            {/*<button class="signUp">Sign Up!</button>*/}
+        </div>
+        <div class="bodyContainer">
+            <div class="body">
+                <h2 class="codingPartyText">Harvest is a coding party
+					<Image src={ghost} class="descriptionTextGhost" alt="Ghost"/>
+				</h2>
+
+                <div class="descriptionContainer">
+                    <p class="descriptionText">Harvest is a social coding event open to Cadettes, Seniors, and Ambassadors. We’ll
+                        come together for a day to discover the joy of code, build creative projects, and share them
+                        with the wiorld!
+                        <br/><br/>
+                        Harvest is organized in public by teenagers just like yourself at <a href="https://hackclub.com/">Hack Club</a> - and we want you to
+						contribute! Join us in the #harvest channel on the <a href="https://hackclub.com/slack">Hack Club Slack</a> to help craft this event into
+                        something truly magical.</p>
+                </div>
+                <h2 class="questionsHeader">I have questions...
+					<Image src={ghost} class="questionsTextGhost" alt="Ghost"/>
+				</h2>
+                <div class="questionsRow">
+                    <div class="questionBox" style="rotate: -1deg; margin-left: 120px">
+                        <h3 class="question">How much does it cost?</h3>
+                        <p class="questionAnswer">Harvest is entirely free! Everything from snacks to dinner to the
+                            incredible swag we’ll get is covered by Hack Club and Girl Scouts.</p>
+                    </div>
+                    <div class="questionBox" style="rotate: 1deg; margin-left: 40px">
+                        <h3 class="question">I have no clue how to code. Can I still come?</h3>
+                        <p class="questionAnswer">Yes! Harvest is beginner-friendly, and we’ll be holding workshops to get you started building your first coding projects.</p>
+                    </div>
+                </div>
+                <div class="questionsRow">
+                    <div class="questionBox">
+                        <h3 class="question" style="rotate: 1deg">What do I need to bring?</h3>
+                        <p class="questionAnswer">You’ll just need your laptop (school computers work)!
+							If you don’t have a laptop, reach out at <a href="mailto:harvest@hackclub.com">harvest@hackclub.com</a>.</p>
+                    </div>
+                    <div class="questionBox" style="rotate: -1deg; margin-left: 80px">
+                        <h3 class="question">When/Where is Harvest?</h3>
+                        <p class="questionAnswer">Harvest is being held from 1pm-8pm on Saturday, October 28. It’s at Karma Bird House in Burlington, VT!</p>
+                    </div>
+                </div>
+                <div class="questionsRow" style="margin-left: 90px">
+                    <div class="questionBox" style="rotate: -1deg">
+                        <h3 class="question">Help! My parents are worried.</h3>
+                        <p class="questionAnswer">We’re here to help! Ask them to email <a href="mailto:harvest@hackclub.com">harvest@hackclub.com</a>, and we’ll answer any questions they have.</p>
+                    </div>
+                    <div class="questionBox" style="rotate: 1deg; margin-left: 70px">
+                        <h3 class="question">I have another question!</h3>
+                        <p class="questionAnswer">Feel free to reach out! You can either send a message in the #harvest channel in the Hack Club Slack or send us an email at <a href="mailto:harvest@hackclub.com">harvest@hackclub.com</a>!</p>
+                    </div>
+                </div>
+                <div class="footer">
+                    <Image src={pumpkinFooter} alt="Pumpkins" class="pumpkinFooter"/>
+                    <h2 class="footerText">organized with <span style="color: var(--primary)"><3</span> by <a
+                            style="color: var(--primary)" href="https://hackclub.com">hack club</a></h2>
+                    <div class="icons">
+                        <a href="https://github.com/hackclub/harvest"><Image class="icon" src={github} alt="GitHub" width="45"/></a>
+                        <a href="https://hackclub.com/slack"><Image class="icon" src={slack} alt="Slack" width="45"/></a>
+                        <a href="https://instagram.com/starthackclub"><Image class="icon" src={instagram} alt="Instagram" width="45"/></a>
+                    </div>
+					<div class="bottom-bg"/>
+					<div class="bottom-bg-gradient"/>
+				</div>
+            </div>
+        </div>
+
+    </main>
+</Layout>
+
+<style>
+	a {
+		color: unset;
+	}
+
+	a:hover {
+		text-decoration-style: wavy;
+	}
+
+	.pumpkinFooter {
+		width: 700px;
+		max-width: 100vw;
+		height: auto;
+	}
+
+	.questionsTextGhost {
+		width: 575px;
+		height: auto;
+		transform: rotate(170deg) scaleX(-1);
+		opacity: 0.6;
+		position: absolute;
+		bottom: -500px;
+		left: -450px;
+		z-index: -1;
+	}
+
+	.bottom-bg {
+		background: url("/leaves.jpg");
+		background-size: 100%;
+		opacity: 0.15;
+		height: 60vh;
+		width: 100%;
+		position: absolute;
+		bottom: 0;
+		z-index: -2;
+	}
+
+	.bottom-bg-gradient {
+		background: linear-gradient(0deg, rgba(248, 242, 233, 0.00) 50%, #F8F2E9 100%);
+		height: 60vh;
+		width: 100%;
+		position: absolute;
+		bottom: 0;
+		z-index: -1;
+	}
+
+	.icons {
+		justify-content: center;
+		align-items: center;
+		justify-items: center;
+	}
+
+	.icon {
+		margin: 0 10px;
+	}
+
+    .footer {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: "Wack Club Sans", sans-serif;
+		margin-bottom: 75px;
+    }
+
+    .footerText {
+		width: 100%;
+        font-size: 48px;
+		margin-bottom: 20px;
+		margin-top: 10px;
+		text-align: center;
+    }
+
+    .question {
+        text-align: center;
+        font-family: "Wack Club Sans", sans-serif;
+        font-weight: 400;
+        font-size: 33px;
+        margin: 0;
+    }
+
+    .questionAnswer {
+        font-family: "Phantom Sans", sans-serif;
+        font-size: 23px;
+        margin: 0;
+        text-align: center;
+    }
+
+    .questionBox {
+        width: 370px;
+        height: 170px;
+        padding: 40px 30px;
+        border-radius: 21px;
+        border: 3px solid rgba(248, 134, 28, 0.75);
+        background: rgba(248, 134, 28, 0.20);
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        justify-content: space-around;
+		margin-bottom: 40px;
+    }
+
+    .questionsRow {
+        display: flex;
+		flex-wrap: wrap;
+		min-width: 0;
+		justify-content: center;
+    }
+
+    .questionsHeader {
+        font-family: "Wack Club Sans", sans-serif;
+        font-size: 72px;
+        color: var(--primary);
+        rotate: 2deg;
+        text-align: right;
+        font-weight: 400;
+        margin: 0 20px 45px;
+    }
+
+    .descriptionTextGhost {
+        width: 575px;
+        height: auto;
+        transform: rotate(170deg) scaleY(-1);
+        opacity: 0.6;
+        position: absolute;
+        top: 50px;
+        left: 700px
+    }
+
+    .descriptionContainer {
+        position: relative;
+        margin-bottom: 85px;
+		margin-left: 20px;
+		margin-right: 20px;
+    }
+
+    .bodyContainer {
+        position: absolute;
+        top: 115vh;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .body {
+        width: 1100px;
+		min-width: 0;
+    }
+
+    .descriptionText {
+        max-width: 750px;
+        font-family: 'Phantom Sans', sans-serif;
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .codingPartyText {
+        font-family: "Wack Club Sans", sans-serif;
+        font-size: 72px;
+        font-weight: 400;
+        color: var(--primary);
+        margin: 0 20px 45px;
+        rotate: -2deg;
+        text-align: left;
+		position: relative;
+    }
+
+    .polaroidsContainer {
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        bottom: -70px;
+        overflow-x: clip;
+        display: flex;
+        justify-content: center;
+		z-index: -1;
+    }
+
+    .polaroids {
+        display: flex;
+    }
+
+    .polaroidTextContainer {
+        width: 86%;
+        height: 14%;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 0;
+        line-height: 44px;
+		container-name: polaroidTextContainer;
+    }
+
+    .polaroidText {
+        display: inline-block;
+        font-family: "Indie Flower", cursive;
+        font-size: 24px;
+        color: hsla(0, 0%, 0%, 0.67);
+        line-height: 24px;
+    }
+
+    .polaroidImage {
+        width: 86%;
+        height: 72%;
+        object-fit: cover;
+        margin-top: 26px;
+    }
+
+    .polaroid {
+        aspect-ratio: 268/320;
+        width: 268px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #FEFEFE;
+        border-radius: 5px;
+        filter: drop-shadow(0px 6px 6px rgba(0, 0, 0, 0.25));
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .left {
+        rotate: -6deg;
+    }
+
+    .right {
+        rotate: 6deg;
+    }
+
+    .signUp {
+        font-family: "Wack Club Sans", sans-serif;
+        font-weight: 400;
+        font-size: 48px;
+        color: white;
+        background: var(--primary);
+        border-radius: 10px;
+        border: none;
+        width: 250px;
+        height: 70px;
+        margin-top: 23px;
+        cursor: pointer;
+    }
+
+    .plusText {
+        font-family: "Wack Club Sans", sans-serif;
+        font-weight: 400;
+        font-size: 98px;
+        color: var(--accent);
+        margin: 0 41px;
+    }
+
+    .HCandGSLine {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0;
+    }
+
+    .HCandGSLogos {
+        width: 234px;
+        height: auto
+    }
+
+    .titleContainer {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        margin-top: 15vh;
+    }
+
+    .presentText, .subtitle {
+        font-family: "Wack Club Sans", sans-serif;
+        font-weight: 400;
+        line-height: 100%;
+        text-align: center;
+        color: var(--accent);
+        font-size: 65px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .title {
+        font-family: "Wack Club Sans", sans-serif;
+        font-weight: 400;
+        text-align: center;
+        font-size: 200px;
+        line-height: 100%;
+        color: var(--primary);
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    @media only screen and (max-width: 768px) {
+        .title {
+            font-size: 100px;
+        }
+
+        .HCandGSLogos {
+            width: 100px;
+        }
+
+        .plusText {
+            font-size: 46px;
+            margin: 0 20px;
+            line-height: 100%;
+        }
+
+        .presentText, .subtitle {
+            font-size: 45px;
+        }
+
+        .polaroid {
+            aspect-ratio: 268/320;
+            width: 230px
+        }
+
+        .polaroidText {
+            font-size: 21px;
+            line-height: 21px;
+        }
+
+        .footerText {
+            font-size: 34px;
+        }
+
+        .icon {
+            width: 40px;
+            height: auto;
+        }
+
+        .questionsTextGhost, .descriptionTextGhost {
+            display: none;
+        }
+
+        .codingPartyText, .questionsHeader {
+            font-size: 55px;
+        }
+
+        .descriptionText {
+            font-size: 22px;
+        }
+
+        .polaroidTextContainer {
+            margin-top: 5px
+        }
+
+        .descriptionContainer {
+            margin-bottom: 70px;
+        }
+
+        .question {
+            font-size: 25px;
+        }
+
+        .questionAnswer {
+            font-size: 20px;
+        }
+    }
+
+    @media only screen and (max-width: 1100px) {
+
+
+		.questionsRow, .questionBox {
+			margin-left: 0 !important;
+			margin-right: 0 !important;
+		}
+
+
+
+        .questionBox {
+            width: 80vw;
+            padding: 20px 20px;
+        }
+    }
+
+    .top-bg {
+        background: url("/leaves.jpg");
+        background-size: 100%;
+        opacity: 0.15;
+        height: 120vh;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -2;
+    }
+
+    .top-bg-gradient {
+        background: linear-gradient(180deg, rgba(248, 242, 233, 0.00) 76.04%, #F8F2E9 100%);
+        height: 100vh;
+        width: 100%;
+        position: absolute;
+        top: 20vh;
+        left: 0;
+        z-index: -1;
+    }
+
+</style>
