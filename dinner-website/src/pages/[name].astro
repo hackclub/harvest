@@ -44,7 +44,7 @@ base('Guests').select({
 })
 
 const pageIdentifier = dinnerGuest["Name"];
-const pageColor = stringToColor(pageIdentifier);
+const pageColor = stringToColor(pageIdentifier) + "0";
 
 ---
 
@@ -59,14 +59,53 @@ const pageColor = stringToColor(pageIdentifier);
 <h1>Nice to meet you!</h1>
 <p>Hello! My name is {dinnerGuest["Name"]} :) </p>
 <p>You can contact me @</p>
-<ul>
+
+<div class="bullets">
+<ul class="list">
+
+{dinnerGuest["Email address"] &&
 <li><a href="{dinnerGuest["Email address"]}">{dinnerGuest["Email address"]}</a></li>
+}
+{dinnerGuest["LinkedIn"] &&
 <li><a href="{dinnerGuest["LinkedIn"]}">LinkedIn</a></li>
+}
+{dinnerGuest["GitHub"] &&
 <li><a href="{dinnerGuest["GitHub"]}">GitHub</a></li>
+}
+{dinnerGuest["Website"] &&
+<li><a href="{dinnerGuest["Website"]}">Website</a></li>
+}
 </ul>
+</div>
 <p>Made with <3 by the harvesters</p>
 </body>
 <style>
+@font-face {
+  font-family: 'Phantom Sans';
+  src: url('https://assets.hackclub.com/fonts/Phantom_Sans_0.7/Regular.woff')
+      format('woff'),
+    url('https://assets.hackclub.com/fonts/Phantom_Sans_0.7/Regular.woff2')
+      format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+body{
+  font-family: 'Phantom Sans';
+  font-size: 200%;
+  text-align: center;
+  margin: auto;
+  font-color: #524b43;
+  background-color: #FFEEC9;
+}
+
+ul.list{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  text-align: center;
+}
 
 </style>
 </html>
