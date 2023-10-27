@@ -58,6 +58,9 @@ const pageColor = stringToColor(pageIdentifier) + "0";
 
 <h1>Nice to meet you!</h1>
 <p>Hello! My name is {dinnerGuest["Name"]} :) </p>
+{dinnerGuest["Photo"] &&
+<img src={dinnerGuest["Photo"]} style="width: 200px;">
+}
 <p>You can contact me @</p>
 
 <div class="bullets">
