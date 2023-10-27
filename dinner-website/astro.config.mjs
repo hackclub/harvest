@@ -1,8 +1,8 @@
 import { defineConfig } from 'astro/config';
-import nodejs from '@astrojs/node';
+import vercelServerless from '@astrojs/vercel/serverless';
 
 // https://astro.build/config
 export default defineConfig({
     output: 'server',
-    adapter: nodejs({mode: "middleware"})
+    adapter: vercelServerless()
 });

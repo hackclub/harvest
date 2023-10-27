@@ -23,10 +23,7 @@ function stringToColor(str) {
   return color;
 }
 
-const pageIdentifier = `https://upgraded-trout-jgxrpppgj563pq7j-4321.app.github.dev/${dinnerGuest["Name"]}`;
-const pageColor = stringToColor(pageIdentifier);
 
-console.log(pageColor);
 
 await new Promise((resolve, reject) => {
     try {
@@ -46,6 +43,9 @@ base('Guests').select({
     }
 })
 
+const pageIdentifier = dinnerGuest["Name"];
+const pageColor = stringToColor(pageIdentifier);
+
 ---
 
 <!DOCTYPE html>
@@ -54,7 +54,7 @@ base('Guests').select({
 <title>Harvest Dinner Guests</title>
 </head>
 
-<body>
+<body style="background-color: {pageColor}">
 
 <h1>Nice to meet you!</h1>
 <p>Hello! My name is {dinnerGuest["Name"]} :) </p>
