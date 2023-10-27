@@ -1,0 +1,72 @@
+ ---
+import Airtable from 'airtable'
+
+const {name} = Astro.params
+console.log(name)
+
+
+
+var base = new Airtable({apiKey: import.meta.env.AIRTABLE_API_KEY}).base('app6mZ3P1AY1kzLQ0');
+
+let dinnerGuest = {}
+
+function stringToColor(str) {
+  // Generate a hash code from the input string
+  let hash = 0;
+  for (let i = 0; i < str.length; i++) {
+    hash = str.charCodeAt(i) + ((hash << 5) - hash);
+  }
+
+  // Create a hexadecimal color code
+  const color = '#' + ((hash & 0x00FFFFFF) | 0x990000).toString(16).slice(1);
+
+  return color;
+}
+
+const pageIdentifier = `https://upgraded-trout-jgxrpppgj563pq7j-4321.app.github.dev/${dinnerGuest["Name"]}`;
+const pageColor = stringToColor(pageIdentifier);
+
+console.log(pageColor);
+
+await new Promise((resolve, reject) => {
+    try {
+base('Guests').select({
+    view: 'Grid view',
+    maxRecords: 1,
+    filterByFormula: `{First Name} = '${name}'`
+}).firstPage(function(err, records) {
+    try {
+    if (err) { console.error(err); return; }
+    dinnerGuest = records[0].fields
+    resolve()
+    } catch {}
+});
+    } catch {
+        
+    }
+})
+
+---
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Harvest Dinner Guests</title>
+</head>
+
+<body>
+
+<h1>Nice to meet you!</h1>
+<p>Hello! My name is {dinnerGuest["Name"]} :) </p>
+<p>You can contact me @</p>
+<ul>
+<li><a href="{dinnerGuest["Email address"]}">{dinnerGuest["Email address"]}</a></li>
+<li><a href="{dinnerGuest["LinkedIn"]}">LinkedIn</a></li>
+<li><a href="{dinnerGuest["GitHub"]}">GitHub</a></li>
+</ul>
+<p>Made with <3 by the harvesters</p>
+</body>
+<style>
+
+</style>
+</html>

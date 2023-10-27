@@ -1,0 +1,17 @@
+{
+  "name": "dinner-website",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/node": "^6.0.3",
+    "airtable": "^0.12.2",
+    "astro": "^3.4.0"
+  }
+}
