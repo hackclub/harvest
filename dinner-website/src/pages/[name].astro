@@ -67,16 +67,16 @@ const pageColor = stringToColor(pageIdentifier) + "0";
 <ul class="list">
 
 {dinnerGuest["Email address"] &&
-<li><a href="{dinnerGuest["Email address"]}">{dinnerGuest["Email address"]}</a></li>
+<li><a href={dinnerGuest["Email address"]}>{dinnerGuest["Email address"]}</a></li>
 }
 {dinnerGuest["LinkedIn"] &&
-<li><a href="{dinnerGuest["LinkedIn"]}">LinkedIn</a></li>
+<li><a href={dinnerGuest["LinkedIn"]}>LinkedIn</a></li>
 }
 {dinnerGuest["GitHub"] &&
-<li><a href="{dinnerGuest["GitHub"]}">GitHub</a></li>
+<li><a href={dinnerGuest["GitHub"]}>GitHub</a></li>
 }
 {dinnerGuest["Website"] &&
-<li><a href="{dinnerGuest["Website"]}">Website</a></li>
+<li><a href={dinnerGuest["Website"]}>Website</a></li>
 }
 </ul>
 </div>
