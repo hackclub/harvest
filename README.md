@@ -19,7 +19,22 @@ Day of schedule and why we decided to do it this way ~Fatimah
 {
 
 Our special PCB project and the women loved it ~Noor
+## 🚀 Networking Dinner PCB Cards  
+For this hackathon we wanted to tackle the problem of "networking acrobatics," the balancing act of trying to network while juggling food or other belongings in your hands. To solve this phenomenon we decided to create PCB buisness cards using Hackclub's really cool project-- [OnBoard](https://hackclub.com/onboard/)! 
 
+We designed them with the Harvest fall theme in mind, turning regular buisness cards into electric mini pumpkins, and checked all the wiring. Because of time contraints, we had to order them unassembled, and the day before the networking dinner we sautered them at HQ!
+
+<p align="center">
+  <img src="https://cloud-j8uwz2hxo-hack-club-bot.vercel.app/0untitled_design.png" width="800" align="center">
+</p>
+
+But where will scanning these pumpkins take you? We set up an Airtable with names, profile pictures, and contact links of all the dinner guests. Taking it a step further, we built a website with the Airtable so that the information on it would be seamlessly incorporated on the website. This would also change the details depending on the name of the guest in the url. We used the NFC Tools app to connect each PCB to a different guest and labeled the personalized one. 
+
+At the dinner, instead of losing time getting contact information, we were able to gain time connecting with a fascinating group of accomplished women. It was also a fun interactive experience and a great conversation starter! So, no more phone gymnastics--just a quick scan for smooth networking and more enjoyable experiences.
+
+<p align="center">
+  <img src="https://cloud-37ztwnh08-hack-club-bot.vercel.app/0img_2278.jpg" align="center">
+</p>
 
 }
 
