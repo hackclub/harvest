@@ -9,9 +9,7 @@ Intro to what harvest is and why we organized it ~Lorelai
 
 }
 
-{
-
-## Harvest Schedule~ Fatimah
+## Harvest Schedule
 Hackathon schedules are quite typical, but we decided it would be a good idea to incorporate halloween-themed workshops and activities throughout the day! We also encouraged hackathon attendees to dress up to become in Halloween spirit, and many did not disappoint! 
 
 <p align="center">
@@ -19,11 +17,7 @@ Hackathon schedules are quite typical, but we decided it would be a good idea to
 </p>
 
 Our schedule consisted of ice breakers and a semi-official opening ceremony, along with beginner-friendly workshops throughout the day. We also alloted time aside for students to put their all-in to their projects, and many came up with extremely creative projects during the pitch presentations! For many, it was their first time writing lines of code, and this hackathon gave them the opportunity to turn their designs into fully-fledged projects.
-}
 
-{
-
-Our special PCB project and the women loved it ~Noor
 ## 🚀 Networking Dinner PCB Cards  
 For this hackathon we wanted to tackle the problem of "networking acrobatics," the balancing act of trying to network while juggling food or other belongings in your hands. To solve this phenomenon we decided to create PCB buisness cards using Hackclub's really cool project-- [OnBoard](https://hackclub.com/onboard/)! 
 
