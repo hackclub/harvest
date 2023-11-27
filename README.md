@@ -11,9 +11,14 @@ Intro to what harvest is and why we organized it ~Lorelai
 
 {
 
-Day of schedule and why we decided to do it this way ~Fatimah
+## Harvest Schedule~ Fatimah
+Hackathon schedules are quite typical, but we decided it would be a good idea to incorporate halloween-themed workshops and activities throughout the day! We also encouraged hackathon attendees to dress up to become in Halloween spirit, and many did not disappoint! 
 
+<p align="center">
+  <img src="https://cloud-q2ksslu14-hack-club-bot.vercel.app/0screenshot_2023-11-27_at_12.04.49_pm.png" width="800" align="center">
+</p>
 
+Our schedule consisted of ice breakers and a semi-official opening ceremony, along with beginner-friendly workshops throughout the day. We also alloted time aside for students to put their all-in to their projects, and many came up with extremely creative projects during the pitch presentations! For many, it was their first time writing lines of code, and this hackathon gave them the opportunity to turn their designs into fully-fledged projects.
 }
 
 {
@@ -40,8 +45,9 @@ At the dinner, instead of losing time getting contact information, we were able 
 
 {
 
-Our special approach to worshops ~Fatimah
+# Our Approach to Workshops ~Fatimah
 
+We wanted to ensure that our workshops would be unique yet simultaneously helpful for both begineers and intermediate coders. We decided to host two main beginner-friendly workshops, such as the Sprig and the Web Development workshops. We held these in the  main room instead of hosting separate hackathon rooms since there was an influx of interest in these workshops! By the end of the day, many had incorporated the workshop knowledge they'd learned into their projects, which was a beautiful sight to see. 
 
 }
 
