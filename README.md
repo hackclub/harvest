@@ -4,7 +4,8 @@
 
 {
 
-Intro to what harvest is and why we organized it ~Lorelai
+## Welcome to Harvest!
+Harvest is a beginner-friendly hackathon geared toward middle and high school students in the New England area, as a part of Hack Club’s Days of Service initiative to bring access to computer science education and a supportive hacking environment to groups that might not otherwise have access. We were all stoked to be able to organize this together and share our love of hacking with attendees, and hopefully encourage some of them to dive even deeper down the rabbit hole. Ultimately, all the time and work we put into building Harvest was all because we have all had the opportunity to learn and create in a supportive community here at Hack Club, and we want everyone to have that chance. 
 
 
 }
