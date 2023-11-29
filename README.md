@@ -1,4 +1,4 @@
-# Harvest 🍁 /// hiii please add you inputs in the sections with your names but also if you have an input for another sectionadd that too :))
+# Harvest 🍁 
 
 (Picture)
 
