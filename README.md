@@ -40,7 +40,7 @@ At the dinner, instead of losing time getting contact information, we were able 
 
 {
 
-# Our Approach to Workshops ~Fatimah
+# Our Approach to Workshops
 
 We wanted to ensure that our workshops would be unique yet simultaneously helpful for both begineers and intermediate coders. We decided to host two main beginner-friendly workshops, such as the Sprig and the Web Development workshops. We held these in the  main room instead of hosting separate hackathon rooms since there was an influx of interest in these workshops! By the end of the day, many had incorporated the workshop knowledge they'd learned into their projects, which was a beautiful sight to see. 
 
