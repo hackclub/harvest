@@ -37,7 +37,7 @@ We wanted to ensure that our workshops would be unique yet simultaneously helpfu
 
 ## 📱Marketing
 
-The approach we took to marketing for Harvest was to create a viral Instagram Reel and connect it to the Harvest website. We paid Indtagram to treat this Reel as an advertisement with the target audience as teenagers in Vermont. [Here](https://www.instagram.com/p/CylfnIrg1-5/) is the video that has almost 37 thousand views till date! Funnily the video even reached Nila's Instagram friends in India and Europe. 
+The approach we took to marketing for Harvest was to create a viral Instagram Reel and connect it to the Harvest website. We paid Instagram to treat this Reel as an advertisement with the target audience as teenagers in Vermont. [Here](https://www.instagram.com/p/CylfnIrg1-5/) is the video that has almost 37 thousand views till date! Funnily the video even reached Nila's Instagram friends in India and Europe. 
 
 ## 💸 The Budget
 
@@ -54,7 +54,7 @@ After all these expense we still had $885 left in our HCB account, you can check
 
 ## 💖 Impact
 
-At Harvest every one of our attendees ended up building an easy Sprig game with multiple levels + a website infoprming as a trailer to their game! We watched them go from almost no experience in coding to building 2 complete projects by the end of the day and got great feedback that they loved this style of workshops and would love to do more in the near future 😄
+At Harvest every one of our attendees ended up building an easy Sprig game with multiple levels + a website imade to be a trailer to their game! We watched them go from almost no experience in coding to building 2 complete projects by the end of the day and got great feedback that they loved this style of workshops and would love to do more in the near future 😄
 
 Interested in hosting a hackathon? Read [how Hack Club can support you](https://hackathons.hackclub.com/) and check out [An Expandable Guide to Hackathon Organizing](https://expandables.hackclub.dev/organizing.html)!
 
