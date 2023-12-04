@@ -1,7 +1,9 @@
-# Harvest 🍁 --- https://www.instagram.com/p/CylfnIrg1-5/
+# Harvest 🍁
 
 ## ✨ Welcome to Harvest!
 Harvest is a beginner-friendly hackathon geared toward middle and high school students in the New England area, as a part of Hack Club’s Days of Service initiative to bring access to computer science education and a supportive hacking environment to groups that might not otherwise have access. We were all stoked to be able to organize this together and share our love of hacking with attendees, and hopefully encourage some of them to dive even deeper down the rabbit hole. Ultimately, all the time and work we put into building Harvest was all because we have all had the opportunity to learn and create in a supportive community here at Hack Club, and we want everyone to have that chance. 
+
+Check oput our website [here](https://harvest.hackclub.com)!
 
 ## 🧠 The Schedule
 Hackathon schedules are quite typical, but we decided it would be a good idea to incorporate halloween-themed workshops and activities throughout the day! We also encouraged Harvest attendees to dress up and come in Halloween spirit, and many did not disappoint! 
@@ -33,15 +35,20 @@ At the dinner, instead of losing time getting contact information, we were able 
 
 We wanted to ensure that our workshops would be unique yet simultaneously helpful for both beginners and intermediate coders. We decided to host two main beginner-friendly workshops, such as the Sprig Game Development and the Web Development workshops. We held these in the main venue room instead of hosting separate hackathon rooms since there was an influx of interest in these workshops! By the end of the day, every participant built upon the base knowledge they'd learned during the respective workshops and made the website and video game uniqely theirs. 
 
+## 📱Marketing
+
+The approach we took to marketing for Harvest was to create a viral Instagram Reel and connect it to the Harvest website. We paid Indtagram to treat this Reel as an advertisement with the target audience as teenagers in Vermont. [Here](https://www.instagram.com/p/CylfnIrg1-5/) is the video that has almost 37 thousand views till date! Funnily the video even reached Nila's Instagram friends in India and Europe. 
+
 ## 💸 The Budget
 
 Harvest started out with an exact budget of $8,650 out of which we used $7765. Here is an approximate breakdown:
 | Item | Amount ($) |
 |------|--------|
+|🎥 Instagram Marketing Campaign | 500 |
 |✈️ Travel for volunteers| 3,000 |
 |👚 Hackathon: Swag (Sweatshirts + Stickers), Decorations, Workshops, Snacks + Lunch | 1,750 |
 |🥘 Dinner | 1,700 |
-|🐶 Weekend expenses | 1,300 |
+|🐶 Weekend expenses | 800 |
 
 After all these expense we still had $885 left in our HCB account, you can check it out [here](https://hcb.hackclub.com/harvest)! This shows us that we budgeted for the event accurately as we had allocated $1000 as a safety fund.
 
