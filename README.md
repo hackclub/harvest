@@ -33,10 +33,7 @@ At the dinner, instead of losing time getting contact information, we were able 
 
 We wanted to ensure that our workshops would be unique yet simultaneously helpful for both beginners and intermediate coders. We decided to host two main beginner-friendly workshops, such as the Sprig Game Development and the Web Development workshops. We held these in the main venue room instead of hosting separate hackathon rooms since there was an influx of interest in these workshops! By the end of the day, every participant built upon the base knowledge they'd learned during the respective workshops and made the website and video game uniqely theirs. 
 
-## 💸 The Budget 
-
 ## 💸 The Budget
-[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fbank-shields.hackclub.com%2Forganizations%2Fhorizon%2Fbalance)](https://bank.hackclub.com/harvest)
 
 Harvest started out with an exact budget of $8,650 out of which we used $7765. Here is an approximate breakdown:
 | Item | Amount ($) |
@@ -46,9 +43,11 @@ Harvest started out with an exact budget of $8,650 out of which we used $7765. H
 |🥘 Dinner | 1,700 |
 |🐶 Weekend expenses | 1,300 |
 
-After all these expense we still had $885 left in our HCB account. This shows us that we budgeted for the event accurately as we had allocated $1000 as a safety fund.
+After all these expense we still had $885 left in our HCB account, you can check it out [here](https://hcb.hackclub.com/harvest)! This shows us that we budgeted for the event accurately as we had allocated $1000 as a safety fund.
 
-the impact we had ~Cheru
+## 💖 Impact
+
+At Harvest every one of our attendees ended up building an easy Sprig game with multiple levels + a website infoprming as a trailer to their game! We watched them go from almost no experience in coding to building 2 complete projects by the end of the day and got great feedback that they loved this style of workshops and would love to do more in the near future 😄
 
 Interested in hosting a hackathon? Read [how Hack Club can support you](https://hackathons.hackclub.com/) and check out [An Expandable Guide to Hackathon Organizing](https://expandables.hackclub.dev/organizing.html)!
 
@@ -56,7 +55,7 @@ Interested in hosting a hackathon? Read [how Hack Club can support you](https://
 
 | Year | Project                                                            | Description                                                                                                                                                                                                                                                                           |
 | ---- | ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 2023 | [Outernet](https://outernet.hackclub.com), [Horizon](https://horizon.hackclub.com), [Alpine](https://alpine.hackclub.com), [Spark](https://spark.hackclub.com), and Lonestar      | Out-of-doors, summer adventures, and [Days of Service Events](https://daysofservice.hackclub.com/)                                                                                                                                                                                                                                                                          |
+| 2023 | [Outernet](https://outernet.hackclub.com), [Horizon](https://horizon.hackclub.com), [Alpine](https://alpine.hackclub.com), [Spark](https://spark.hackclub.com), and [Lonestar](https://lonestar.hackclub.com)      | Out-of-doors, summer adventures, and [Days of Service Events](https://daysofservice.hackclub.com/)                                                                                                                                                                                                                                                                          |
 | 2023 | [Epoch](https://epoch.hackclub.com)                                | A magical New Year's spent hacking in the Delhi NCR ([repo](https://github.com/hackclub/epoch))                                                                                                                                                                                       |
 | 2022 | [Assemble](https://assemble.hackclub.com)                          | The first high school hackathon since the pandemic! ([repo](https://github.com/hackclub/assemble)) ([finances](https://bank.hackclub.com/assemble)) ([photos](https://hack.af/assemble-photos))                                                                                       |
 | 2021 | [The Hacker Zephyr](https://github.com/hackclub/the-hacker-zephyr) | A cross-country hacker adventure on a train. ([repo](https://github.com/hackclub/the-hacker-zephyr)) ([finances](https://bank.hackclub.com/zephyr))                                                                                                                                   |
