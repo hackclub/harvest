@@ -1,15 +1,10 @@
-# Harvest 🍁 
+# Harvest 🍁 --- https://www.instagram.com/p/CylfnIrg1-5/
 
-<img src="https://cloud-hioa9ytzd-hack-club-bot.vercel.app/0img_6437.jpg">
-
-## Welcome to Harvest!
+## ✨ Welcome to Harvest!
 Harvest is a beginner-friendly hackathon geared toward middle and high school students in the New England area, as a part of Hack Club’s Days of Service initiative to bring access to computer science education and a supportive hacking environment to groups that might not otherwise have access. We were all stoked to be able to organize this together and share our love of hacking with attendees, and hopefully encourage some of them to dive even deeper down the rabbit hole. Ultimately, all the time and work we put into building Harvest was all because we have all had the opportunity to learn and create in a supportive community here at Hack Club, and we want everyone to have that chance. 
 
-
-}
-
-## Harvest Schedule
-Hackathon schedules are quite typical, but we decided it would be a good idea to incorporate halloween-themed workshops and activities throughout the day! We also encouraged hackathon attendees to dress up to become in Halloween spirit, and many did not disappoint! 
+## 🧠 The Schedule
+Hackathon schedules are quite typical, but we decided it would be a good idea to incorporate halloween-themed workshops and activities throughout the day! We also encouraged Harvest attendees to dress up and come in Halloween spirit, and many did not disappoint! 
 
 <p align="center">
   <img src="https://cloud-q2ksslu14-hack-club-bot.vercel.app/0screenshot_2023-11-27_at_12.04.49_pm.png" width="800" align="center">
@@ -18,9 +13,9 @@ Hackathon schedules are quite typical, but we decided it would be a good idea to
 Our schedule consisted of ice breakers and a semi-official opening ceremony, along with beginner-friendly workshops throughout the day. We also alloted time aside for students to put their all-in to their projects, and many came up with extremely creative projects during the pitch presentations! For many, it was their first time writing lines of code, and this hackathon gave them the opportunity to turn their designs into fully-fledged projects.
 
 ## 🚀 Networking Dinner PCB Cards  
-For this hackathon we wanted to tackle the problem of "networking acrobatics," the balancing act of trying to network while juggling food or other belongings in your hands. To solve this phenomenon we decided to create PCB buisness cards using Hackclub's really cool project-- [OnBoard](https://hackclub.com/onboard/)! 
+For this hackathon we wanted to tackle the problem of "networking acrobatics," the balancing act of trying to network while juggling food or other belongings in your hands. To solve this phenomenon we decided to create PCB buisness cards using Hack Club's really cool initiative-- [OnBoard](https://hackclub.com/onboard/)! 
 
-We designed them with the Harvest fall theme in mind, turning regular buisness cards into electric mini pumpkins, and checked all the wiring. Because of time contraints, we had to order them unassembled, and the day before the networking dinner we sautered them at HQ!
+We designed the PCBs with the Harvest fall theme in mind, turning regular buisness cards into electric mini pumpkins, and checked all the wiring. Because of time contraints, we had to order them unassembled, and the day before the networking dinner we soldered the components onto the board at HQ!
 
 <p align="center">
   <img src="https://cloud-j8uwz2hxo-hack-club-bot.vercel.app/0untitled_design.png" width="800" align="center">
@@ -34,38 +29,26 @@ At the dinner, instead of losing time getting contact information, we were able 
   <img src="https://cloud-37ztwnh08-hack-club-bot.vercel.app/0img_2278.jpg" align="center">
 </p>
 
-}
+## 🛠️ Our Approach to Workshops
 
-{
+We wanted to ensure that our workshops would be unique yet simultaneously helpful for both beginners and intermediate coders. We decided to host two main beginner-friendly workshops, such as the Sprig Game Development and the Web Development workshops. We held these in the main venue room instead of hosting separate hackathon rooms since there was an influx of interest in these workshops! By the end of the day, every participant built upon the base knowledge they'd learned during the respective workshops and made the website and video game uniqely theirs. 
 
-# Our Approach to Workshops
+## 💸 The Budget 
 
-We wanted to ensure that our workshops would be unique yet simultaneously helpful for both begineers and intermediate coders. We decided to host two main beginner-friendly workshops, such as the Sprig and the Web Development workshops. We held these in the  main room instead of hosting separate hackathon rooms since there was an influx of interest in these workshops! By the end of the day, many had incorporated the workshop knowledge they'd learned into their projects, which was a beautiful sight to see. 
+## 💸 The Budget
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fbank-shields.hackclub.com%2Forganizations%2Fhorizon%2Fbalance)](https://bank.hackclub.com/harvest)
 
-}
+Harvest started out with an exact budget of $8,650 out of which we used $7765. Here is an approximate breakdown:
+| Item | Amount ($) |
+|------|--------|
+|✈️ Travel for volunteers| 3,000 |
+|👚 Hackathon: Swag (Sweatshirts + Stickers), Decorations, Workshops, Snacks + Lunch | 1,750 |
+|🥘 Dinner | 1,700 |
+|🐶 Weekend expenses | 1,300 |
 
-{
-
-
-the budget ~Nila
-
-
-}
-
-{
-
+After all these expense we still had $885 left in our HCB account. This shows us that we budgeted for the event accurately as we had allocated $1000 as a safety fund.
 
 the impact we had ~Cheru
-
-
-}
-
-{
-
-
-add a link to the photos
-
-}
 
 Interested in hosting a hackathon? Read [how Hack Club can support you](https://hackathons.hackclub.com/) and check out [An Expandable Guide to Hackathon Organizing](https://expandables.hackclub.dev/organizing.html)!
 
