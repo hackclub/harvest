@@ -44,9 +44,9 @@ The approach we took to marketing for Harvest was to create a viral Instagram Re
 Harvest started out with an exact budget of $8,650 out of which we used $7765. Here is an approximate breakdown:
 | Item | Amount ($) |
 |------|--------|
-|🎥 Instagram Marketing Campaign | 500 |
+|🎥 Instagram Marketing Campaign | 100 |
 |✈️ Travel for volunteers| 3,000 |
-|👚 Hackathon: Swag (Sweatshirts + Stickers), Decorations, Workshops, Snacks + Lunch | 1,750 |
+|👚 Hackathon: Swag (Sweatshirts + Stickers), Decorations, Workshops, Snacks + Lunch | 2,150 |
 |🥘 Dinner | 1,700 |
 |🐶 Weekend expenses | 800 |
 
